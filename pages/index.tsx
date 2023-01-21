@@ -1,11 +1,8 @@
 import React from "react";
 import type { NextPage } from "next";
-import { useRecoilState } from "recoil";
-import { textState } from "../context";
 
 const Main: NextPage = () => {
-  const [text] = useRecoilState(textState);
-  return <section id={`main`}>I love {text} 1.2.9</section>;
+  return <section id={`main`}>Mika 언어 개발중</section>;
 };
 
 export default Main;
